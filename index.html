@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="potato2.css">
+    <script src = "settings2.js"></script>
+    <title>servey</title>
+</head>
+<body>
+  <div id="form">
+    <form class="servey" name="registration" onSubmit="return validation();">
+      <fieldset>
+        <legend style="align:center;">Personal Detail</legend></br>
+
+        <label class="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your First Name...">
+
+        <label class="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Last Name...">
+
+        <label class="gender">Gender</label>
+    <select id="gender" name="genderselect">
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="Other">Other</option>
+    </select>
+
+        <label class="cname">Country</label>
+    <select id="cname" name="countryselect" placeholder="Home Country...">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="Japan">Japan</option>
+      <option value="usa">USA</option>
+
+        <label class="pnumber">Phone Number</label>
+      <input type="number" id="pnumber" name="mobile" placeholder="Phone number 000-000-0000...">
+    </select>
+
+    <input type="submit" value="Submit">
+    </fieldset>
+    </form>
+  </div>
+</body>
+</html>
